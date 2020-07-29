@@ -1,0 +1,362 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  box-sizing: border-box;
+}
+p{
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: "arial-regular";
+  src: url("../fonts/arial.ttf");
+}
+@font-face {
+  font-family: "arial-bold";
+  src: url("../fonts/arialbd.ttf");
+}
+@font-face {
+  font-family: "arial-it";
+  src: url("../fonts/ariali.ttf");
+}
+@font-face {
+  font-family: "nevis-bold";
+  src: url("../fonts/nevis.ttf");
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+p{
+    font-family: "arial-regular";
+}
+.container {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.head {
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+
+}
+
+.logo {
+  float: left;
+  width: 183px;
+  min-height:100px;
+  padding-bottom: 18px;
+}
+
+.menu {
+  float: right;
+  margin: 45px 0 0 0;
+  min-height: 10px;
+  width: 660px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+}
+
+.menu ul li{
+  float: left;
+  margin: 0 0 0 25px;
+}
+
+.menu ul li .first{
+  margin: 0px;
+  color: black;
+}
+
+.menu ul li a{
+  color: #fe9b00;
+  font-family: "arial-bold";
+  text-decoration: none;
+}
+.menu ul li a.menu_home{
+  color: #000;
+}
+
+.banner {
+  width: 100%;
+  background: #fb9400 url(../images/slideBg.jpg) repeat-x;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banner_text {
+  width: 480px;
+  float: left;
+  padding: 40px 0 46px 31px;
+  min-height: 380px;
+  box-sizing: border-box;
+
+}
+.banner_text_h2{
+  font-size: 70px;
+  color: white;
+  font-family: "nevis-bold";
+}
+
+.button {
+  width: 100%;
+  background: #090909;
+  padding: 17px 12px;
+  float: left;
+}
+
+.text {
+  float: left;
+  margin: 0px;
+  color: #999898;
+  font-family: "arial-bold";
+}
+
+.link {
+  float: right;
+  color: #fe9b00;
+  text-decoration: none;
+  padding-right: 16px;
+  background: url(../images/arrow.png) no-repeat right;
+}
+.banner_image {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+.display_block{
+  display: block;
+}
+
+.texts{
+  width: 100%;
+  min-height: 270px;
+  float: left;
+}
+.textsh{
+  width: 100%;
+  float: left;
+  margin-top: 23px;
+  font-family: "arial-bold";
+  margin-bottom: 0px;
+  padding-left: 19px;
+  background: url(../images/blackarrow.png) no-repeat 1px;
+}
+.text12{
+  width: 281px;
+  float: left;
+  margin-right: 55px;
+}
+
+.blackarrow{
+  width: 11px;
+  margin: 0px 15px 1.5px 1.5px;
+}
+.text2ul{
+  list-style-image: url(../images/check.png);
+  padding-left: 25px;
+}
+.text2ul li{
+  float: left;
+  padding-left: 10px;
+  margin-bottom: 20px;
+    font-family: "arial-regular";
+}
+.text3{
+  width: 281px;
+  float: left;
+}
+.text3_podp{
+  padding-top: 35px;
+  font-style: italic;
+  font-family: "arial-italic";
+}
+  .line{
+  background:black;
+  margin: 10px 55px 22px 0;
+  width: 281px;
+  height: 5px;
+  float: left;
+}
+.text1read{
+  color: orange;
+  float: left;
+  text-decoration: none;
+  margin-top: 15px;
+    font-family: "arial-bold";
+  padding-left: 19px;
+  background: url(../images/blackarrow.png) no-repeat 1px;
+}
+.portfolio{
+  width: 100%;
+  min-height: 230px;
+  float: left;
+}
+
+.photo123{
+  width: 210px;
+  min-height:135px;
+  float: left;
+  margin-right: 35px;
+  margin-top: 20px;
+  position: relative;
+}
+.photo4{
+  width: 210px;
+  min-height:135px;
+  float: right;
+  padding-top: 20px;
+  position: relative;
+}
+.photo_view{
+  width: 62px;
+  min-height: 21px;
+  position: absolute;
+  bottom: 4px;
+  right: -5px;
+  background: orange;
+}
+.view{
+width: 62px;
+padding-left: 4px;
+cursor: pointer;
+padding-right: 8px;
+text-decoration: none;
+float: left;
+background: url(../images/blackarrow.png) no-repeat 45px;
+}
+.blog{
+  width: 100%;
+  min-height:165px;
+  float: left;
+  padding-top: 30px;
+}
+.blog_hp{
+  width: 100%;
+  float: left;
+}
+.blog_h{
+  width: 70%;
+  float: left;
+  margin-top:0px;
+  font-family: "arial-bold";
+  margin-bottom: 30px;
+  padding-left: 19px;
+  background: url(../images/blackarrow.png) no-repeat 1px;
+}
+.blog_connect{
+  float: left;
+  margin-top:0px;
+  margin-bottom: 25px;
+  font-family: "arial-bold";
+  margin-left: 63px;
+  padding-left: 19px;
+  background: url(../images/blackarrow.png) no-repeat 1px;
+}
+
+.blog_text{
+  width: 660px;
+  float: left;
+  margin-top:0px;
+}
+.blog_texticons{
+  float: left;
+}
+.icons {
+  margin-top: 0px;
+  float: left;
+  min-height: 10px;
+  margin-left: 80px;
+}
+
+.icons ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+}
+
+.icons ul li{
+  float: left;
+  margin: 0 0 0 15px;
+}
+.icons ul li.last{
+  margin: 0px;
+  float: left;
+}
+
+.footer{
+  width: 100%;
+  float: left;
+  background: #ccc;
+}
+.foot{
+  float: left;
+  font-size: small;
+}
+.footer_menu{
+  margin: 10px 0 35 0;
+  float: left;
+}
+.footer_menu ul{
+  list-style: none;
+  padding-top: 35px;
+  padding-left: 0px;
+  margin: 0px;
+  float: left;
+}
+.footer_menu ul li{
+  float: left;
+  margin: 0;
+  font-family: "arial-regular";
+}
+.footer_menu ul li.first{
+float: left;
+margin: 0px;
+padding:0px;
+}
+.footer_menu ul li a.first{
+  color: #636161;
+}
+
+.footer_p{
+  float:left;
+  width: 100%;
+  margin: 10px 0 35px 0;
+  padding: 0px;
+  font-family: "arial-regular";
+  color: #636161;
+}
+.foot_logo{
+  width: 120px;
+  min-height: 65px;
+  float: right;
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+
+.footer_line{
+  background: black;
+  width: 1px;
+  height: 12px;
+  float: left;
+  margin-top: 2px;
+}
+.footer_line1{
+  border-left: 1px solid #636161;
+  padding-left: 7px;
+  margin-left: 7px;
+  float: left;
+  color: #636161;
+}
